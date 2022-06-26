@@ -36,9 +36,9 @@ Imports:
     magrittr (>= 1.5),
     methods,
     R6,
-    rlang (>= 1.0.2),
+    rlang (>= 1.0.3),
     tibble (>= 2.1.3),
-    tidyselect (>= 1.1.1),
+    tidyselect (>= 1.1.3),
     utils,
     vctrs (>= 0.4.1), 
     pillar (>= 1.5.1)
@@ -64,6 +64,9 @@ Suggests:
     testthat (>= 3.1.1),
     tidyr, 
     withr
+Remotes:
+    r-lib/rlang,
+    r-lib/tidyselect
 VignetteBuilder: 
     knitr
 Encoding: UTF-8
